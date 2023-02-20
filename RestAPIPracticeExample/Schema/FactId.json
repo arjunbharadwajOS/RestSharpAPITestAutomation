@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "object",
+      "properties": {
+        "verified": {
+          "type": "boolean"
+        },
+        "sentCount": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "verified",
+        "sentCount"
+      ]
+    },
+    "_id": {
+      "type": "string"
+    },
+    "user": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "object",
+          "properties": {
+            "first": {
+              "type": "string"
+            },
+            "last": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "first",
+            "last"
+          ]
+        },
+        "_id": {
+          "type": "string"
+        },
+        "photo": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "_id",
+        "photo"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "__v": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "deleted": {
+      "type": "boolean"
+    },
+    "used": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "status",
+    "_id",
+    "user",
+    "text",
+    "__v",
+    "source",
+    "updatedAt",
+    "type",
+    "createdAt",
+    "deleted",
+    "used"
+  ]
+}

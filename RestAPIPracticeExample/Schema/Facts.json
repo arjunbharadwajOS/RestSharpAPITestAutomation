@@ -1,0 +1,321 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "object",
+          "properties": {
+            "verified": {
+              "type": "boolean"
+            },
+            "sentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "verified",
+            "sentCount"
+          ]
+        },
+        "_id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "__v": {
+          "type": "integer"
+        },
+        "source": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "deleted": {
+          "type": "boolean"
+        },
+        "used": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "_id",
+        "user",
+        "text",
+        "__v",
+        "source",
+        "updatedAt",
+        "type",
+        "createdAt",
+        "deleted",
+        "used"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "object",
+          "properties": {
+            "verified": {
+              "type": "boolean"
+            },
+            "sentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "verified",
+            "sentCount"
+          ]
+        },
+        "_id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "__v": {
+          "type": "integer"
+        },
+        "source": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "deleted": {
+          "type": "boolean"
+        },
+        "used": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "_id",
+        "user",
+        "text",
+        "__v",
+        "source",
+        "updatedAt",
+        "type",
+        "createdAt",
+        "deleted",
+        "used"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "object",
+          "properties": {
+            "verified": {
+              "type": "boolean"
+            },
+            "sentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "verified",
+            "sentCount"
+          ]
+        },
+        "_id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "__v": {
+          "type": "integer"
+        },
+        "source": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "deleted": {
+          "type": "boolean"
+        },
+        "used": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "_id",
+        "user",
+        "text",
+        "__v",
+        "source",
+        "updatedAt",
+        "type",
+        "createdAt",
+        "deleted",
+        "used"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "object",
+          "properties": {
+            "verified": {
+              "type": "boolean"
+            },
+            "sentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "verified",
+            "sentCount"
+          ]
+        },
+        "_id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "__v": {
+          "type": "integer"
+        },
+        "source": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "deleted": {
+          "type": "boolean"
+        },
+        "used": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "_id",
+        "user",
+        "text",
+        "__v",
+        "source",
+        "updatedAt",
+        "type",
+        "createdAt",
+        "deleted",
+        "used"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "object",
+          "properties": {
+            "verified": {
+              "type": "boolean"
+            },
+            "sentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "verified",
+            "sentCount"
+          ]
+        },
+        "_id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "__v": {
+          "type": "integer"
+        },
+        "source": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "deleted": {
+          "type": "boolean"
+        },
+        "used": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "_id",
+        "user",
+        "text",
+        "__v",
+        "source",
+        "updatedAt",
+        "type",
+        "createdAt",
+        "deleted",
+        "used"
+      ]
+    }
+  ]
+}
